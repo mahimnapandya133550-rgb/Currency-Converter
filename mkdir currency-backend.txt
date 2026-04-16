@@ -1,0 +1,11 @@
+1) SERVER SIDE 
+javac Server.java
+java Server.java
+Server is starting in Port 900
+Connected
+File is Received
+
+2)CLIENT SIDE
+javac Socket_programming.java
+java Socket_programming.java
+Sending the File to the Server.

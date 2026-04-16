@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+}
+
+.card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.currency-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.currency-row div {
+  flex: 1;
+}
+
+#swap {
+  padding: 10px;
+  border: none;
+  background: #4facfe;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#convertBtn {
+  width: 100%;
+  padding: 12px;
+  background: #4facfe;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#convertBtn:hover {
+  background: #3b8eea;
+}
+
+.result {
+  margin-top: 15px;
+  padding: 12px;
+  background: #f1f1f1;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: bold;
+}
