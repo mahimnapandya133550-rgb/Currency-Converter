@@ -12,6 +12,5 @@ Environment Variables.js
 Role Middleware.js
 Routes.js
 Server.js
-Server.js 1.js
 User.js
 Environment Variables.env
